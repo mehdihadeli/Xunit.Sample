@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests;
 
-public class XunitTests
+public class ReflectionHelperXunitTests
 {
     [Fact]
     public void Test1()
@@ -16,7 +16,7 @@ public class XunitTests
 }
 
 [TestClass]
-public class MicrosoftTests
+public class MicrosoftReflectionHelperTests
 {
     [TestMethod]
     public void Test1()
