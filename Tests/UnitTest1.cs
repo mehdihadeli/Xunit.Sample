@@ -6,6 +6,7 @@ namespace Tests;
 
 public class XunitTests
 {
+    // dotnet test --filter DisplayName=Tests.XunitTests.Test1
     [Fact]
     public void Test1()
     {
@@ -18,6 +19,7 @@ public class XunitTests
 [TestClass]
 public class MicrosoftTests
 {
+    // dotnet test --filter Name=Test1
     [TestMethod]
     public void Test1()
     {
